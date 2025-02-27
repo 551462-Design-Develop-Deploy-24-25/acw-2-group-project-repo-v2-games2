@@ -85,6 +85,88 @@
       ]
     },
     {
+      "Route": "Downloads/TestDL.txt",
+      "AssetFile": "Downloads/TestDL.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rx+JpLwoIDgDPpA3XID/KcMCAXbU0fFYJd74vkTEvyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 17:14:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rx+JpLwoIDgDPpA3XID/KcMCAXbU0fFYJd74vkTEvyo="
+        }
+      ]
+    },
+    {
+      "Route": "Downloads/TestDL.z9e0n45qnb.txt",
+      "AssetFile": "Downloads/TestDL.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rx+JpLwoIDgDPpA3XID/KcMCAXbU0fFYJd74vkTEvyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 17:14:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z9e0n45qnb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rx+JpLwoIDgDPpA3XID/KcMCAXbU0fFYJd74vkTEvyo="
+        },
+        {
+          "Name": "label",
+          "Value": "Downloads/TestDL.txt"
+        }
+      ]
+    },
+    {
       "Route": "Properties/launchSettings.json",
       "AssetFile": "Properties/launchSettings.json",
       "Selectors": [],

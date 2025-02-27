@@ -1,0 +1,22 @@
+﻿@page "/download"
+@inject IJSRuntime JS
+@attribute [StreamRendering]
+
+<PageTitle>Download</PageTitle>
+
+<h1>Download</h1>
+
+<p>Play Now!</p>
+
+<button @onclick="DownloadFileFromURL">
+    Download
+</button>
+
+@code {
+    private async Task DownloadFileFromURL()
+    {
+        var fileName = "TestDL.txt";
+        var fileURL = "Downloads/TestDL.txt";
+        await JS.InvokeVoidAsync("triggerFileDownload", fileName, fileURL);
+    }
+}
