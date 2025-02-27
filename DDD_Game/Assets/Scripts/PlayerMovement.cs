@@ -9,12 +9,16 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed = 6f;
     public float runSpeed = 12f;
     public float jumpPower = 7f;
-    public float gravity = 10f;
+    public float gravity = 15f;
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
     public float defaultHeight = 2f;
     public float crouchHeight = 1f;
     public float crouchSpeed = 3f;
+    public bool isRunning = false;
+    public bool onCooldown = false;
+    public float runMeter = 200;
+    public float cooldownTime = 4f;
 
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
@@ -33,28 +37,58 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
+        isRunning = false;
+        if (Input.GetKey(KeyCode.LeftShift) && runMeter > 0 && onCooldown == false && !Input.GetKey(KeyCode.LeftControl))
+        {
+            isRunning = true;
+            runMeter -= 1;
+        }
+        if (runMeter <= 0)
+        {
+            onCooldown = true;
 
-        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        }
+        if (!Input.GetKey(KeyCode.LeftShift) || onCooldown)
+        {
+            isRunning = false;
+            runMeter += 0.4f;
+            if (runMeter > 200)
+            {
+                runMeter = 200;
+            }
+        }
+        if (onCooldown)
+        {
+            cooldownTime -= Time.deltaTime;
+        }
+        if (cooldownTime <= 0f)
+        {
+            onCooldown = false;
+            cooldownTime = 4f;
+        }
+
         float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Vertical") : 0;
         float curSpeedY = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-        if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
-        {
-            moveDirection.y = jumpPower;
-        }
-        else
-        {
-            moveDirection.y = movementDirectionY;
-        }
+        //jump functionality - remove subsequent 'moveDirection.y = movementDirectionY;' if uncommenting this section
+        //if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
+        //{
+        //    moveDirection.y = jumpPower;
+        //}
+        //else
+        //{
+        //    moveDirection.y = movementDirectionY;
+        //}
+        moveDirection.y = movementDirectionY;
 
         if (!characterController.isGrounded)
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.R) && canMove)
+        if (Input.GetKey(KeyCode.LeftControl) && canMove)
         {
             characterController.height = crouchHeight;
             walkSpeed = crouchSpeed;
