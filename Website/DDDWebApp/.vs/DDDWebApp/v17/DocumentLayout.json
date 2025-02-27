@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|c:\\users\\mattb\\documents\\github\\acw-2-group-project-repo-v2-games2\\website\\dddwebapp\\dddwebapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|solutionrelative:dddwebapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|c:\\users\\mattb\\documents\\github\\acw-2-group-project-repo-v2-games2\\website\\dddwebapp\\dddwebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|solutionrelative:dddwebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "DDDWebApp\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "DDDWebApp\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T16:41:03.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "DDDWebApp\\Components\\_Imports.razor",
@@ -38,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "DDDWebApp\\Components\\Pages\\Weather.razor",
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "DDDWebApp\\Components\\Pages\\Home.razor",

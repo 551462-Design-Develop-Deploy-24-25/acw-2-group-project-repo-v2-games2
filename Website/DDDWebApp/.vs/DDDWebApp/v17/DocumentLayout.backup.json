@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mattb\\source\\repos\\DDDWebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|c:\\users\\mattb\\source\\repos\\dddwebapp\\dddwebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|c:\\users\\mattb\\documents\\github\\acw-2-group-project-repo-v2-games2\\website\\dddwebapp\\dddwebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|solutionrelative:dddwebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|c:\\users\\mattb\\source\\repos\\dddwebapp\\dddwebapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|c:\\users\\mattb\\documents\\github\\acw-2-group-project-repo-v2-games2\\website\\dddwebapp\\dddwebapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|solutionrelative:dddwebapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|c:\\users\\mattb\\source\\repos\\dddwebapp\\dddwebapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|c:\\users\\mattb\\documents\\github\\acw-2-group-project-repo-v2-games2\\website\\dddwebapp\\dddwebapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6609D09F-7AFE-416D-AB27-DEAEB6A606CD}|DDDWebApp\\DDDWebApp.csproj|solutionrelative:dddwebapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -28,35 +28,33 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\DDDWebApp\\DDDWebApp\\Components\\_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "DDDWebApp\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\mattb\\source\\repos\\DDDWebApp\\DDDWebApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\_Imports.razor",
               "RelativeToolTip": "DDDWebApp\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T16:27:20.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:27:20.07Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Weather.razor",
+              "DocumentMoniker": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "DDDWebApp\\Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\mattb\\source\\repos\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Weather.razor",
               "RelativeToolTip": "DDDWebApp\\Components\\Pages\\Weather.razor",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T16:26:55.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:26:55.938Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Home.razor",
+              "DocumentMoniker": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "DDDWebApp\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\mattb\\source\\repos\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\mattb\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\Website\\DDDWebApp\\DDDWebApp\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "DDDWebApp\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
