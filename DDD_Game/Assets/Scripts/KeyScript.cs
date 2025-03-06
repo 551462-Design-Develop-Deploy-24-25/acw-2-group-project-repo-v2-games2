@@ -10,7 +10,6 @@ public class KeyScript : MonoBehaviour
 
         if (keyInventory != null)
         {
-            Debug.Log("this is the key talking");
             keyInventory.KeyCollected();
             gameObject.SetActive(false);
         }

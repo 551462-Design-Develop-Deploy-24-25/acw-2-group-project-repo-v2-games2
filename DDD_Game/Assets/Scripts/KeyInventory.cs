@@ -12,7 +12,6 @@ public class KeyInventory : MonoBehaviour
 
     public void KeyCollected()
     {
-        Debug.Log("key got");
         hasKey = true;
     }
 }
