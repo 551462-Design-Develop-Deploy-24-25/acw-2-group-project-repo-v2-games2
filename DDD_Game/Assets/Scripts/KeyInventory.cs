@@ -10,8 +10,22 @@ public class KeyInventory : MonoBehaviour
     public bool hasPurpleKey { get; private set; }
     public bool hasYellowKey { get; private set; }
 
-    public void KeyCollected()
+    public void KeyCollected(string keyName)
     {
-        hasKey = true;
+        switch (keyName)
+        {
+            case "Key":
+                hasKey = true;
+                break;
+            case "PurpleKey":
+                hasPurpleKey = true;
+                break;
+            case "RedKey":
+                hasRedKey = true;
+                break;
+            case "OrangeKey":
+                hasOrangeKey = true;
+                break;
+        }
     }
 }

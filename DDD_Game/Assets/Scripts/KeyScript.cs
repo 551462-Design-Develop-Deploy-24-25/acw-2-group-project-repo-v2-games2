@@ -10,7 +10,8 @@ public class KeyScript : MonoBehaviour
 
         if (keyInventory != null)
         {
-            keyInventory.KeyCollected();
+            Debug.Log(this.gameObject.name);
+            keyInventory.KeyCollected(this.gameObject.name);
             gameObject.SetActive(false);
         }
     }
