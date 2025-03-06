@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|c:\\users\\ellis\\documents\\github\\acw-2-group-project-repo-v2-games2\\ddd_game\\assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\keyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,38 +34,36 @@
               "Title": "Doors.cs",
               "DocumentMoniker": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Doors.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Doors.cs",
-              "ToolTip": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Doors.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\Doors.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwCUAAAAoAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Doors.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Doors.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T02:32:05.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "KeyInventory.cs",
               "DocumentMoniker": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\KeyInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyInventory.cs",
-              "ToolTip": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\KeyInventory.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\KeyInventory.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\KeyInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:23:19.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T02:23:19.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "KeyScript.cs",
               "DocumentMoniker": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\KeyScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyScript.cs",
               "ToolTip": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\KeyScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\KeyScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:05:10.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T02:05:10.398Z"
             }
           ]
         }
