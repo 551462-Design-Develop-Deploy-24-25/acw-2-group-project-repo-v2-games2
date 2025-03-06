@@ -59,6 +59,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -201,6 +204,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -307,6 +313,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -380,12 +389,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4653577062862357049}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1.9, z: 3.9}
-  m_LocalScale: {x: 0.25, y: 0.55, z: 0.25}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -0.07000001, z: -0.36666664}
+  m_LocalScale: {x: 0.05, y: 0.6470587, z: 0.08333333}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 571254412762579125}
+  m_Father: {fileID: 3060534860920053774}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!33 &917703213235457361
 MeshFilter:
@@ -412,6 +421,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -519,6 +531,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -624,6 +639,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -680,7 +698,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 277347163142042180, guid: 8375435a4c861104d8e5f6f11132ebbb,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d0e125a0146fce04c88c18f81a78ea79, type: 2}
     - target: {fileID: 1309562175885019297, guid: 8375435a4c861104d8e5f6f11132ebbb,
@@ -740,12 +758,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2994338326527941781, guid: 8375435a4c861104d8e5f6f11132ebbb,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d0e125a0146fce04c88c18f81a78ea79, type: 2}
     - target: {fileID: 3479405805481656718, guid: 8375435a4c861104d8e5f6f11132ebbb,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d8d75756e22286f4a9ce88a4c32ccbc9, type: 2}
     m_RemovedComponents: []
@@ -753,7 +771,7 @@ PrefabInstance:
     - {fileID: 1058169514449442661, guid: 8375435a4c861104d8e5f6f11132ebbb, type: 3}
     - {fileID: 5535379990819520547, guid: 8375435a4c861104d8e5f6f11132ebbb, type: 3}
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1309562175885019297, guid: 8375435a4c861104d8e5f6f11132ebbb,
+    - targetCorrespondingSourceObject: {fileID: 4591643284470392858, guid: 8375435a4c861104d8e5f6f11132ebbb,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5994837404179231090}
@@ -762,6 +780,12 @@ PrefabInstance:
 --- !u!4 &571254412762579125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1309562175885019297, guid: 8375435a4c861104d8e5f6f11132ebbb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1567814524222605332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3060534860920053774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4591643284470392858, guid: 8375435a4c861104d8e5f6f11132ebbb,
     type: 3}
   m_PrefabInstance: {fileID: 1567814524222605332}
   m_PrefabAsset: {fileID: 0}
