@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|c:\\github\\acw-2-group-project-repo-v2-games2\\ddd_game\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|c:\\github\\acw-2-group-project-repo-v2-games2\\ddd_game\\assets\\scripts\\keys \u0026 doors\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keys \u0026 doors\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:39:23.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Doors.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Keys \u0026 Doors\\Doors.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Keys \u0026 Doors\\Doors.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ViewSwitcher.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@001b54a8988a\\Editor\\ViewSwitcher.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy@001b54a8988a\\Editor\\ViewSwitcher.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy@001b54a8988a\\Editor\\ViewSwitcher.cs",
               "ViewState": "AgIAAL0AAAAAAAAAAAASwMwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:15:04.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T15:15:04.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AIMovement.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\AIMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AIMovement.cs",
