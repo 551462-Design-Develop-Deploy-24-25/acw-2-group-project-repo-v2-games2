@@ -8,15 +8,6 @@
 
 <p>Play Now!</p>
 
-<button @onclick="DownloadFileFromURL">
-    Download
-</button>
-
-@code {
-    private async Task DownloadFileFromURL()
-    {
-        var fileName = "TestDL.txt";
-        var fileURL = "Downloads/TestDL.txt";
-        await JS.InvokeVoidAsync("triggerFileDownload", fileName, fileURL);
-    }
-}
+<a href="/Downloads/DDD_Game.zip" download="DDD_Game.zip"
+    <button>Download</button>
+</a>
