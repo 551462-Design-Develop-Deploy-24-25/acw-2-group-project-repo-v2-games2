@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PurpleDoor : MonoBehaviour
 {
-    public bool isOpen { get; private set; }
+    [SerializeField]
+    public bool isOpen;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,8 +14,8 @@ public class PurpleDoor : MonoBehaviour
 
         if (keyInventory != null && keyInventory.hasPurpleKey == true && !isOpen)
         {
-            transform.Translate(-1.5f, 0f, 1f);
-            transform.Rotate(0f, 90f, 0f);
+            this.transform.Translate(1.5f, 0f, 1f);
+            this.transform.Rotate(0f, -90f, 0f);
             isOpen = true;
         }
         else if (keyInventory != null)

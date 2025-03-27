@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class KeyInventory : MonoBehaviour
 {
-    public bool hasKey { get; private set; }
-    public bool hasRedKey { get; private set; }
-    public bool hasOrangeKey { get; private set; }
-    public bool hasPurpleKey { get; private set; }
-    public bool hasYellowKey { get; private set; }
+
+    [SerializeField] 
+    public bool hasKey;
+    public bool hasRedKey;
+    public bool hasOrangeKey;
+    public bool hasPurpleKey;
+    public bool hasYellowKey;
 
     public void KeyCollected(string keyName)
     {
