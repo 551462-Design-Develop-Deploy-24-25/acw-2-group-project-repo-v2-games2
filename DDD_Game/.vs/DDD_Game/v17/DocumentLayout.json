@@ -1,14 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\",
+  "WorkspaceRootPath": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement#.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement#.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|c:\\github\\acw-2-group-project-repo-v2-games2\\ddd_game\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement#.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,10 +30,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ViewSwitcher.cs",
+              "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAlwMwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:56:52.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
+              "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAswFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,16 +55,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement#.cs",
               "DocumentMoniker": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement#.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement#.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement#.cs",
               "ToolTip": "C:\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement#.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement#.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswFAAAAABAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Users\\Ellis\\Documents\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement#.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T16:17:15.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T16:17:15.133Z"
             }
           ]
         }
