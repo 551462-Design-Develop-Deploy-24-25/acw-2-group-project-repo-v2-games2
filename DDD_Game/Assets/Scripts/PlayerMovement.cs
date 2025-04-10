@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
 
@@ -30,13 +31,13 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 originalPosition;
     private bool canMove = true;
     public bool isHiding = false;
-
+    private KeyInventory keyInventory;
     void Start()
     {
-        Debug.Log(originalPosition);
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        keyInventory = GetComponent<KeyInventory>();
     }
 
     void Update()
@@ -56,6 +57,20 @@ public class PlayerMovement : MonoBehaviour
                         characterController.enabled = false;
                         playerTransform.position = hit.collider.transform.GetChild(hit.collider.transform.childCount - 1).position;
                         playerCamera.transform.localPosition = new Vector3(0, 0.97f, 0);
+                }
+                if (hit.collider.CompareTag("Key"))
+                {
+                    KeyInventory keyInventory = GetComponent<KeyInventory>();
+                    if (keyInventory != null)
+                    {
+                        keyInventory.addKey(hit.collider.gameObject);
+                        hit.collider.gameObject.SetActive(false);
+                    }
+                }
+                if (hit.collider.CompareTag("Door"))
+                {
+                    Doors door = hit.collider.GetComponent<Doors>();
+                    door.ToggleDoor(keyInventory.getKeys());
                 }
 
             }

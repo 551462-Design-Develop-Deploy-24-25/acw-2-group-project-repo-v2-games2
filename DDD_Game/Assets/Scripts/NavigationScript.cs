@@ -33,7 +33,13 @@ public class NavigationScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        RaycastHit hit;
+        Physics.Raycast(transform.position, transform.forward, out hit, 1f);
+        if(hit.collider != null && hit.collider.CompareTag("Door"))
+        {
+            hit.collider.GetComponent<Doors>().MonsterDoor();
+        }
+
         agent.destination = target;
         switch (state)
         {
@@ -43,9 +49,9 @@ public class NavigationScript : MonoBehaviour
                 break;
             case (State.Search):
                 if(CanSee()) { state = State.Chase; break; }
-                SelectRandomDestination(30);
-                
-                break;
+                Coroutine coroutine = StartCoroutine(search());
+
+            break;
             case (State.Roam):
                 if(CanSee()) { state = State.Chase; break; }
                 SelectRandomDestination(60);
@@ -54,6 +60,15 @@ public class NavigationScript : MonoBehaviour
   
     }
 
+    private IEnumerator search()
+    {
+        for(int i = 0; i < 10; i++)
+        {
+            yield return new WaitForSeconds(1f);
+            SelectRandomDestination(10);
+        }
+        state = State.Roam;
+    }
     private bool CanSee()
     {
         Vector3 directionToTarget = player.transform.position - transform.position;
@@ -70,9 +85,11 @@ public class NavigationScript : MonoBehaviour
         }
     }
 
+    
+
     private void SelectRandomDestination(int radius)
     {
-        if (agent.transform.position.x + 5 > target.x && agent.transform.position.x - 5 < target.x && agent.transform.position.z + 5 > target.z && agent.transform.position.z - 5 < target.z)
+        if (agent.transform.position.x + 2 > target.x && agent.transform.position.x - 2 < target.x && agent.transform.position.z + 2 > target.z && agent.transform.position.z - 2 < target.z)
         {
             while (true)
             {

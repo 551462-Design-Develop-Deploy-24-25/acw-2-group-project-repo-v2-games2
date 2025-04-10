@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - HidingSpot
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - IgnoreNavmesh
   - Water
   - UI
   - 
