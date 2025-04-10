@@ -179,15 +179,7 @@ public class PlayerMovement : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-        //jump functionality - remove subsequent 'moveDirection.y = movementDirectionY;' if uncommenting this section
-        //if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
-        //{
-        //    moveDirection.y = jumpPower;
-        //}
-        //else
-        //{
-        //    moveDirection.y = movementDirectionY;
-        //}
+   
         moveDirection.y = movementDirectionY;
 
         if (!characterController.isGrounded)

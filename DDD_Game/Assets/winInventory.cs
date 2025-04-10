@@ -19,7 +19,9 @@ public class winInventory : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(collectedItems.Count == itemsToCollect.Count)
+        Debug.Log("Items to collect: " + itemsToCollect.Count);
+        Debug.Log("Collected items: " + collectedItems.Count);
+        if (collectedItems.Count == itemsToCollect.Count)
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
@@ -34,7 +36,7 @@ public class winInventory : MonoBehaviour
             if (itemsToCollect.Contains(item))
             {
                 collectedItems.Add(item);
-                itemsToCollect[i].SetActive(false);
+                item.SetActive(false);
                 break;
             }
         }

@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 5238950517187449882}
   - component: {fileID: 2653233439168413483}
   - component: {fileID: 4198533404811074820}
-  m_Layer: 0
+  - component: {fileID: 1708364954468464135}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -24.69, y: -0.73, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.5, y: 1.8, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2041551645794679228}
@@ -102,7 +103,7 @@ MonoBehaviour:
   isRunning: 0
   onCooldown: 0
   runMeter: 200
-  cooldownTime: 4
+  DefaultcooldownTime: 4
   Flashlight: {fileID: 6862104633001316894}
   playerTransform: {fileID: 3701909869988727686}
   mapCam: {fileID: 0}
@@ -110,6 +111,20 @@ MonoBehaviour:
   staminaBar: {fileID: 5199673957642674452}
   originalPosition: {x: 0, y: 0, z: 0}
   isHiding: 0
+--- !u!114 &1708364954468464135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891833094325853854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86996e1aa75bb5e499658a803c02da2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsToCollect: []
+  collectedItems: []
 --- !u!1 &1886538981030676953
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +137,7 @@ GameObject:
   - component: {fileID: 3772303691713409387}
   - component: {fileID: 2595130762500408304}
   - component: {fileID: 4032331845060850766}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +240,7 @@ GameObject:
   - component: {fileID: 7010910262544960631}
   - component: {fileID: 3719989512827484241}
   - component: {fileID: 1674145874376992233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -362,7 +377,7 @@ GameObject:
   - component: {fileID: 7358694288696640764}
   - component: {fileID: 7578725218031159988}
   - component: {fileID: 838375209251415587}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +453,7 @@ GameObject:
   - component: {fileID: 6552495210900213713}
   - component: {fileID: 3986644495071941078}
   - component: {fileID: 7878539439181345500}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -547,7 +562,7 @@ GameObject:
   - component: {fileID: 3282780252512502855}
   - component: {fileID: 5199673957642674452}
   - component: {fileID: 4660223012233173683}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stamina Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +715,7 @@ GameObject:
   - component: {fileID: 5484019029608514951}
   - component: {fileID: 6704997531061044194}
   - component: {fileID: 5728534592340935625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,7 +790,7 @@ GameObject:
   - component: {fileID: 3464001802424271111}
   - component: {fileID: 4705464976244722338}
   - component: {fileID: 4104981285972798299}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +909,7 @@ GameObject:
   - component: {fileID: 294379001691498254}
   - component: {fileID: 7552306759107167093}
   - component: {fileID: 6999568822255678079}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,7 +1013,7 @@ GameObject:
   - component: {fileID: 8398868282929074483}
   - component: {fileID: 3669184533450214389}
   - component: {fileID: 1843522361896307226}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Dot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
