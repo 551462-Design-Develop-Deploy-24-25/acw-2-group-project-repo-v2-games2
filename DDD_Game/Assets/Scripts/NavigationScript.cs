@@ -35,9 +35,6 @@ public class NavigationScript : MonoBehaviour
     {
         
         agent.destination = target;
-        Debug.Log(target);
-        //Debug.Log(player.transform.position);
-        Debug.Log(transform.position);
         switch (state)
         {
             case (State.Chase):
@@ -54,16 +51,7 @@ public class NavigationScript : MonoBehaviour
                 SelectRandomDestination(60);
                 break;
         }
-        
-        /*Debug.Log("transform: "+transform.position);
-        Debug.Log("target: "+ target);
-        if(state == State.Roam && agent.transform.position.x + 5 > target.x && agent.transform.position.x - 5 < target.x && agent.transform.position.z + 5 > target.z && agent.transform.position.z - 5 < target.z)
-        {
-            Debug.Log("true");
-            SelectRandomDestination(30);
-            agent.destination = target;
-        }
-        */
+  
     }
 
     private bool CanSee()
@@ -86,7 +74,6 @@ public class NavigationScript : MonoBehaviour
     {
         if (agent.transform.position.x + 5 > target.x && agent.transform.position.x - 5 < target.x && agent.transform.position.z + 5 > target.z && agent.transform.position.z - 5 < target.z)
         {
-            Debug.Log("In Range");
             while (true)
             {
                 Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * radius;

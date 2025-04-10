@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|c:\\github\\acw-2-group-project-repo-v2-games2\\ddd_game\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|c:\\github\\acw-2-group-project-repo-v2-games2\\ddd_game\\assets\\scripts\\navigationscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\navigationscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\keys \u0026 doors\\orange door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keys \u0026 doors\\orange door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\keys \u0026 doors\\keyless door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keys \u0026 doors\\keyless door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keys \u0026 doors\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|c:\\github\\acw-2-group-project-repo-v2-games2\\ddd_game\\assets\\scripts\\keys \u0026 doors\\red door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\keys \u0026 doors\\red door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keys \u0026 doors\\red door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\keys \u0026 doors\\orange door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keys \u0026 doors\\orange door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\keyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +54,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "NavigationScript.cs",
+              "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\NavigationScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NavigationScript.cs",
+              "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\NavigationScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NavigationScript.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAlwCUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T00:38:28.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAASwD8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T23:39:59.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Orange Door.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Keys \u0026 Doors\\Orange Door.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Keys \u0026 Doors\\Orange Door.cs",
               "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Keys \u0026 Doors\\Orange Door.cs",
               "RelativeToolTip": "Assets\\Scripts\\Keys \u0026 Doors\\Orange Door.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T15:09:19.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Red Door.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Keys \u0026 Doors\\Red Door.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Keys \u0026 Doors\\Red Door.cs",
@@ -72,20 +106,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Keyless Door.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Keys \u0026 Doors\\Keyless Door.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Keys \u0026 Doors\\Keyless Door.cs",
               "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Keys \u0026 Doors\\Keyless Door.cs",
               "RelativeToolTip": "Assets\\Scripts\\Keys \u0026 Doors\\Keyless Door.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBMwBMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T15:03:56.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Doors.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Keys \u0026 Doors\\Doors.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Keys \u0026 Doors\\Doors.cs",
@@ -98,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PurpleDoor.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\Keys \u0026 Doors\\PurpleDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Keys \u0026 Doors\\PurpleDoor.cs",
@@ -111,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "KeyInventory.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\KeyInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyInventory.cs",
@@ -124,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "KeyScript.cs",
               "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\KeyScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyScript.cs",

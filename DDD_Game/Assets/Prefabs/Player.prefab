@@ -102,6 +102,9 @@ MonoBehaviour:
   runMeter: 200
   cooldownTime: 4
   Flashlight: {fileID: 6862104633001316894}
+  playerTransform: {fileID: 3701909869988727686}
+  originalPosition: {x: 0, y: 0, z: 0}
+  isHiding: 0
 --- !u!114 &1313489684933162873
 MonoBehaviour:
   m_ObjectHideFlags: 0
