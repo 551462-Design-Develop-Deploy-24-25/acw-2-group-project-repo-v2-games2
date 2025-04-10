@@ -29,7 +29,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 17:11:43 GMT"
+=======
           "Value": "Thu, 27 Mar 2025 11:50:29 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -74,7 +78,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 17:11:43 GMT"
+=======
           "Value": "Thu, 27 Mar 2025 11:50:29 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -85,53 +93,10 @@
       ]
     },
     {
-      "Route": "Downloads/DDD_Game.mlknamsmt4.zip",
-      "AssetFile": "Downloads/DDD_Game.zip",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "35434475"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/x-zip-compressed"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Cmp3AFS4NzczINDtJGKaYf/9+7AjhJTx3smE5rfJLb4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:03:51 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mlknamsmt4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Cmp3AFS4NzczINDtJGKaYf/9+7AjhJTx3smE5rfJLb4="
-        },
-        {
-          "Name": "label",
-          "Value": "Downloads/DDD_Game.zip"
-        }
-      ]
-    },
-    {
-      "Route": "Downloads/DDD_Game.zip",
-      "AssetFile": "Downloads/DDD_Game.zip",
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+=======
+      "Route": "Downloads/TestDL.txt",
+      "AssetFile": "Downloads/TestDL.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -144,25 +109,70 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35434475"
+          "Value": "23"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/x-zip-compressed"
+          "Value": "text/plain"
         },
         {
           "Name": "ETag",
-          "Value": "\"Cmp3AFS4NzczINDtJGKaYf/9+7AjhJTx3smE5rfJLb4=\""
+          "Value": "\"Rx+JpLwoIDgDPpA3XID/KcMCAXbU0fFYJd74vkTEvyo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:03:51 GMT"
+          "Value": "Thu, 27 Mar 2025 11:58:36 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Cmp3AFS4NzczINDtJGKaYf/9+7AjhJTx3smE5rfJLb4="
+          "Value": "sha256-Rx+JpLwoIDgDPpA3XID/KcMCAXbU0fFYJd74vkTEvyo="
+        }
+      ]
+    },
+    {
+      "Route": "Downloads/TestDL.z9e0n45qnb.txt",
+      "AssetFile": "Downloads/TestDL.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rx+JpLwoIDgDPpA3XID/KcMCAXbU0fFYJd74vkTEvyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:58:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z9e0n45qnb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rx+JpLwoIDgDPpA3XID/KcMCAXbU0fFYJd74vkTEvyo="
+        },
+        {
+          "Name": "label",
+          "Value": "Downloads/TestDL.txt"
         }
       ]
     },
@@ -193,7 +203,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
         }
       ],
       "EndpointProperties": [
@@ -238,7 +248,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
         }
       ],
       "EndpointProperties": [
@@ -275,7 +285,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
         }
       ],
       "EndpointProperties": [
@@ -320,7 +330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
         }
       ],
       "EndpointProperties": [
@@ -357,7 +367,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
         }
       ],
       "EndpointProperties": [
@@ -394,7 +404,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
         }
       ],
       "EndpointProperties": [
@@ -413,6 +423,7 @@
       ]
     },
     {
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
       "Route": "app.css",
       "AssetFile": "app.css",
       "Selectors": [],
@@ -439,7 +450,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 16:49:23 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -476,7 +491,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 16:49:23 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -521,7 +540,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 16:49:23 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -566,7 +589,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 16:49:23 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -603,7 +630,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 16:49:23 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -648,7 +679,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 16:49:23 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -685,7 +720,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 16:49:23 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [
@@ -730,7 +769,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 13:02:39 GMT"
+<<<<<<< Updated upstream:Website/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
+          "Value": "Thu, 20 Feb 2025 16:49:23 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 16:39:54 GMT"
+>>>>>>> Stashed changes:Website/DDDWebApp/DDDWebApp/bin/Debug/net8.0/DDDWebApp.staticwebassets.endpoints.json
         }
       ],
       "EndpointProperties": [

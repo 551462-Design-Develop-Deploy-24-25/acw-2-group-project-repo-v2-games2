@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
@@ -19,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     public bool onCooldown = false;
     public float runMeter = 200;
     public float cooldownTime = 4f;
-    public bool isHiding = false;
+    [SerializeField]
+    public GameObject Flashlight;
 
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
@@ -39,6 +41,10 @@ public class PlayerMovement : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
         isRunning = false;
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            Flashlight.SetActive(!Flashlight.activeSelf);
+        }
         if (Input.GetKey(KeyCode.LeftShift) && runMeter > 0 && onCooldown == false && !Input.GetKey(KeyCode.LeftControl))
         {
             isRunning = true;
