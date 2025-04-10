@@ -4,6 +4,7 @@ using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
@@ -21,12 +22,14 @@ public class PlayerMovement : MonoBehaviour
     public bool isRunning = false;
     public bool onCooldown = false;
     public float runMeter = 200;
-    public float cooldownTime = 4f;
+    public float DefaultcooldownTime = 4f;
+    private float cooldownTime;
     [SerializeField]
     public GameObject Flashlight;
     public Transform playerTransform;
     public Camera mapCam;
     public NavigationScript navigationScript;
+    [SerializeField] public Slider staminaBar;
 
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
@@ -36,13 +39,16 @@ public class PlayerMovement : MonoBehaviour
     public bool isHiding = false;
     private KeyInventory keyInventory;
     winInventory winInventory;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        UnityEngine.Cursor.visible = false;
         keyInventory = GetComponent<KeyInventory>();
         winInventory = GetComponent<winInventory>();
+        cooldownTime = DefaultcooldownTime;
+
     }
 
     void Update()
@@ -50,14 +56,14 @@ public class PlayerMovement : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
         isRunning = false;
-
+        staminaBar.value = runMeter;
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!SceneManager.GetSceneByName("PauseMenu").isLoaded)
             {
                 SceneManager.LoadScene("PauseMenu", LoadSceneMode.Additive);
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                UnityEngine.Cursor.lockState = CursorLockMode.None;
+                UnityEngine.Cursor.visible = true;
                 Time.timeScale = 0f;
             }
         }
@@ -141,7 +147,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift) && runMeter > 0 && onCooldown == false && !Input.GetKey(KeyCode.LeftControl))
         {
             isRunning = true;
-            runMeter -= 1;
+            runMeter -= 0.5f;
+
         }
         if (runMeter <= 0)
         {
@@ -151,7 +158,7 @@ public class PlayerMovement : MonoBehaviour
         if (!Input.GetKey(KeyCode.LeftShift) || onCooldown)
         {
             isRunning = false;
-            runMeter += 0.4f;
+            runMeter += 0.1f;
             if (runMeter > 200)
             {
                 runMeter = 200;
@@ -164,7 +171,7 @@ public class PlayerMovement : MonoBehaviour
         if (cooldownTime <= 0f)
         {
             onCooldown = false;
-            cooldownTime = 4f;
+            cooldownTime = DefaultcooldownTime;
         }
 
         float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Vertical") : 0;
