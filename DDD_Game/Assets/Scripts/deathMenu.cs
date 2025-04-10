@@ -8,6 +8,8 @@ public class deathMenu : MonoBehaviour
     // Start is called before the first frame update
     public void Retry()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         SceneManager.LoadScene("RBB");
     }
 

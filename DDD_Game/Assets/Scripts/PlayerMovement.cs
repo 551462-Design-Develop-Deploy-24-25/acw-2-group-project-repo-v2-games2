@@ -92,7 +92,6 @@ public class PlayerMovement : MonoBehaviour
                     if (winInventory != null)
                     {
                         winInventory.CollectItem(hit.collider.gameObject);
-                        //hit.collider.gameObject.SetActive(false);
                     }
                 }
                 if (hit.collider.CompareTag("HidingSpot") && !isHiding)

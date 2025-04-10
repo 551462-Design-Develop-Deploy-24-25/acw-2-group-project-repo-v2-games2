@@ -7,6 +7,7 @@ TagManager:
   - HidingSpot
   - Key
   - Door
+  - Item
   layers:
   - Default
   - TransparentFX
