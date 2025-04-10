@@ -4,28 +4,27 @@ using UnityEngine;
 
 public class KeyInventory : MonoBehaviour
 {
-    public bool hasKey { get; private set; }
-    public bool hasRedKey { get; private set; }
-    public bool hasOrangeKey { get; private set; }
-    public bool hasPurpleKey { get; private set; }
-    public bool hasYellowKey { get; private set; }
+    public List<GameObject> keys = new List<GameObject>();
 
-    public void KeyCollected(string keyName)
+    public void Awake()
     {
-        switch (keyName)
+        keys = new List<GameObject>();
+    }
+    public void addKey(GameObject key)
+    {
+        keys.Add(key);
+    }
+
+    public List<GameObject> getKeys()
+    {
+        return keys;
+    }
+    public bool getKey(GameObject key)
+    {
+        if (keys.Contains(key))
         {
-            case "Key":
-                hasKey = true;
-                break;
-            case "PurpleKey":
-                hasPurpleKey = true;
-                break;
-            case "RedKey":
-                hasRedKey = true;
-                break;
-            case "OrangeKey":
-                hasOrangeKey = true;
-                break;
+            return true;
         }
+        return false;
     }
 }
