@@ -6,7 +6,10 @@ public class KeyInventory : MonoBehaviour
 {
     public List<GameObject> keys = new List<GameObject>();
 
-
+    public void Awake()
+    {
+        keys = new List<GameObject>();
+    }
     public void addKey(GameObject key)
     {
         keys.Add(key);

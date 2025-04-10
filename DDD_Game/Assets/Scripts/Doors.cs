@@ -52,14 +52,14 @@ public class Doors : MonoBehaviour
         {
             if (isOpen)
             {
-                transform.position = Vector3.zero;
-                transform.rotation = Quaternion.identity;
+                transform.localPosition = Vector3.zero;
+                transform.localRotation = Quaternion.identity;
                 isOpen = false;
             }
             else
             {
-                //transform.position = openPosition;
-                //transform.rotation = Quaternion.Euler(openRotation);
+                transform.localPosition = openPosition;
+                transform.localRotation = Quaternion.Euler(openRotation);
                 isOpen = true;
             }
         }
