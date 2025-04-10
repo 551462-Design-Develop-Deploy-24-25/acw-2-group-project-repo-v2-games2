@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 
 
@@ -34,35 +35,42 @@ public class NavigationScript : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        Physics.Raycast(transform.position, transform.forward, out hit, 1f);
-        if(hit.collider != null && hit.collider.CompareTag("Door"))
+        Physics.Raycast(transform.position + Vector3.up, transform.forward, out hit, 1f);
+        Debug.DrawRay(transform.position + Vector3.up, transform.forward, Color.red, 1f);
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            SceneManager.LoadScene("Death Menu");
+        }
+
+        if (hit.collider != null && hit.collider.CompareTag("Door"))
         {
             hit.collider.GetComponent<Doors>().MonsterDoor();
         }
-
         agent.destination = target;
         switch (state)
         {
             case (State.Chase):
-                if (!CanSee()) { state = State.Search; break; }
-                target = player.transform.position;
-                break;
+            if (!CanSee()) { state = State.Search; break; }
+            target = player.transform.position;
+            break;
             case (State.Search):
-                if(CanSee()) { state = State.Chase; break; }
-                Coroutine coroutine = StartCoroutine(search());
+            if (CanSee()) { state = State.Chase; break; }
+            Coroutine coroutine = StartCoroutine(search());
 
             break;
             case (State.Roam):
-                if(CanSee()) { state = State.Chase; break; }
-                SelectRandomDestination(60);
-                break;
+            if (CanSee()) { state = State.Chase; break; }
+            SelectRandomDestination(60);
+            break;
         }
-  
+
     }
 
     private IEnumerator search()
     {
-        for(int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)
         {
             yield return new WaitForSeconds(1f);
             SelectRandomDestination(10);
@@ -85,7 +93,7 @@ public class NavigationScript : MonoBehaviour
         }
     }
 
-    
+
 
     private void SelectRandomDestination(int radius)
     {
@@ -108,6 +116,6 @@ public class NavigationScript : MonoBehaviour
                 }
             }
         }
-        
+
     }
 }

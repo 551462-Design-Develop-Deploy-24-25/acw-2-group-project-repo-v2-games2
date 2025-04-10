@@ -140,7 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e0283acd5e51b4ba60a344a4c6ed57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <isOpen>k__BackingField: 0
 --- !u!1 &13992991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,20 +1103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 891833094325853854, guid: de772a42461a6464eb93af4100e6fa27,
-        type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2006510900986422829, guid: de772a42461a6464eb93af4100e6fa27,
-        type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3677449862778280746, guid: de772a42461a6464eb93af4100e6fa27,
         type: 3}
-      propertyPath: m_Layer
-      value: 3
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3701909869988727686, guid: de772a42461a6464eb93af4100e6fa27,
         type: 3}
@@ -1168,11 +1157,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6862104633001316894, guid: de772a42461a6464eb93af4100e6fa27,
-        type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
