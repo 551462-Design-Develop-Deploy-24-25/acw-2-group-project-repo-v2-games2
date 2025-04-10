@@ -50,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 3f))
             {
+                Debug.Log("Hit: " + hit.collider.name);
                 if (hit.collider.CompareTag("HidingSpot")&&!isHiding)
                 {
                         isHiding = true;
@@ -69,8 +70,14 @@ public class PlayerMovement : MonoBehaviour
                 }
                 if (hit.collider.CompareTag("Door"))
                 {
+                    Debug.Log("Door Hit");
                     Doors door = hit.collider.GetComponent<Doors>();
-                    door.ToggleDoor(keyInventory.getKeys());
+                    if(keyInventory.getKeys().Count == 0)
+                    {
+                        door.ToggleDoor();
+                    }
+                    else
+                        door.ToggleDoor(keyInventory.getKeys());
                 }
 
             }
