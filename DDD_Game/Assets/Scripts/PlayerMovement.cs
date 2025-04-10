@@ -59,6 +59,14 @@ public class PlayerMovement : MonoBehaviour
                 Time.timeScale = 0f;
             }
         }
+        if(SceneManager.GetSceneByName("PauseMenu").isLoaded)
+        {
+            canMove = false;
+        }
+        else
+        {
+            canMove = true;
+        }
 
         if (Input.GetKeyDown(KeyCode.Tab))
         {
