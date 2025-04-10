@@ -1429,6 +1429,7 @@ MonoBehaviour:
   onCooldown: 0
   runMeter: 200
   cooldownTime: 4
+  isHiding: 0
 --- !u!143 &696460436
 CharacterController:
   m_ObjectHideFlags: 0
