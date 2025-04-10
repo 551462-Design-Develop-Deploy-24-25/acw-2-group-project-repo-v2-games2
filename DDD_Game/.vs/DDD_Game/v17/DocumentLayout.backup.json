@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\",
@@ -89,4 +90,91 @@
       ]
     }
   ]
+=======
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\assets\\scripts\\navigationscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFC4216-5F6F-5FA4-7189-55EA5D269374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\navigationscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "RelativeToolTip": "..\\..\\..\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-04-10T04:10:10.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwDMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T23:39:32.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewSwitcher.cs",
+              "DocumentMoniker": "C:\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "ToolTip": "C:\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\Jack\\Documents\\Unity Projects\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T14:41:25.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavigationScript.cs",
+              "DocumentMoniker": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\NavigationScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NavigationScript.cs",
+              "ToolTip": "C:\\GitHub\\acw-2-group-project-repo-v2-games2\\DDD_Game\\Assets\\Scripts\\NavigationScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NavigationScript.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T14:16:04.885Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+>>>>>>> Stashed changes
 }

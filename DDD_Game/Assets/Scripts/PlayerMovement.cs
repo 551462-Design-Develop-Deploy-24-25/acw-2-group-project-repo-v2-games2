@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     public GameObject Flashlight;
     public Transform playerTransform;
+    public Camera mapCam;
 
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
@@ -45,6 +46,16 @@ public class PlayerMovement : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
         isRunning = false;
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            playerCamera.gameObject.SetActive(false);
+            mapCam.gameObject.SetActive(true);
+        }
+        if(Input.GetKeyUp(KeyCode.Tab))
+        {
+            playerCamera.gameObject.SetActive(true);
+            mapCam.gameObject.SetActive(false);
+        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             RaycastHit hit;
