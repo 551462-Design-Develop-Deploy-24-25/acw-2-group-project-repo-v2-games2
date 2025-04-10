@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public bool onCooldown = false;
     public float runMeter = 200;
     public float cooldownTime = 4f;
+    public bool isHiding = false;
 
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
