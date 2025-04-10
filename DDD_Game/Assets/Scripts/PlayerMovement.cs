@@ -35,12 +35,14 @@ public class PlayerMovement : MonoBehaviour
     private bool canMove = true;
     public bool isHiding = false;
     private KeyInventory keyInventory;
+    winInventory winInventory;
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         keyInventory = GetComponent<KeyInventory>();
+        winInventory = GetComponent<winInventory>();
     }
 
     void Update()
@@ -83,7 +85,16 @@ public class PlayerMovement : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 3f))
             {
-                Debug.Log("Hit: " + hit.collider.name);
+                
+                if (hit.collider.CompareTag("Item"))
+                {
+
+                    if (winInventory != null)
+                    {
+                        winInventory.CollectItem(hit.collider.gameObject);
+                        //hit.collider.gameObject.SetActive(false);
+                    }
+                }
                 if (hit.collider.CompareTag("HidingSpot") && !isHiding)
                 {
                     isHiding = true;
